@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap'); */
+
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: 0;
+}
+
+body{
+    /* font-family : 'Edu Australia VIC WA NT Hand', sans-serif; */
+    font-family: 'Cairo Play', sans-serif;
+}
+#navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#navBar a{
+    text-decoration: none;
+    color: #000;
+}
+#navBar .logo img {
+    width: 35px;
+    margin-right: 7px;
+}
+#navBar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#navBar #navLinks{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.4rem;
+}
+#navBar #navLinks li {
+    margin-right: 25px;
+}
+#navBar #navLinks #products-nav{
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    /* padding: 3px; */
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header .header-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    /* max-width: 40vw; */
+}
+header .header-txt h1{
+    font-size: 4rem;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+header .header-txt p{
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+header .header-txt button{
+    background: #687b5f;
+    color: aliceblue;
+    font-size: 19px;
+    /* padding: 5px 20px; */
+    padding: 10px 35px;
+    border: none;
+    border-radius: 15px;
+}
+header img{
+    width: 30vw;
+    height: 75vh;
+}
